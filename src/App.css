@@ -1,0 +1,1602 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./components/assets/fonts/Inter-Regular.woff2') format('woff2'),
+        url('./components/assets/fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Inter;
+	box-sizing: border-box;
+}
+li {
+	list-style-type: none;
+}
+.wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+	width: 90%;
+}
+a {
+	text-decoration: none;
+}
+
+
+/* HEADER SECTION */
+
+header {
+	width: 100%;
+	height: 65px;
+	background: #fff;
+	border-bottom:1px solid #e2e8f0; 
+	display: flex;
+}
+header section.header {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header h1 {
+	display: flex;
+	align-items: center;
+}
+header h1 a {
+	text-decoration: none;
+	color: #000;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+header h1 small {
+	font-size: 18px;
+	font-weight: 500;
+	font-family: sans-serif;
+}
+header ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header ul li {
+	list-style-type: none;
+	margin-right: 20px;
+}
+header ul li:last-child {
+	margin-right: 0;
+}
+header ul li a.login {
+	text-decoration: none;
+	color: #000;
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #334155;
+}
+header ul li a.signup {
+	text-decoration: none;
+	color: #fff;
+	background: #334155;
+	padding: 10px;
+	border: 1px solid #334155;
+}
+header ul li a img.cart {
+	padding-top: 6px;
+}
+
+
+/* HOME SECTION */
+
+#home {
+	width: 100%;
+	font-family: sans-serif;
+}
+#home section.home {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	padding: 50px 0;                                                                                                                       ;
+}
+#home section.home div.left {
+	width: 47%;
+	display: block;
+	margin: auto 0;
+}
+#home section.home div.left h1 {
+	font-size: 40px;
+	font-weight: 700;
+	width: 483px;
+	line-height: 48px;
+	margin-bottom: 20px;
+	color: #0F172A;
+}
+#home section.home div.left p {
+	font-size: 16px;
+	color: #334155;
+	font-weight: 400;
+	line-height: 25px;
+	width: 69%;
+	margin-bottom: 40px;
+} 
+#home section.home div.left a.button {
+	background: #3B82F6;
+	padding: 15px 30px;
+	color: #fff;
+	border-radius: 8px;
+}
+#home section.home div.right {
+	width: 47%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+#home section.home div.right img {
+	display: block;
+	width: 90%;
+}
+
+
+/* STATS SECTION */
+
+#stats {
+	background: #F8FAFC;
+	margin-top: 50px;	
+}
+#stats section.stats {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+#stats section.stats ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 75px 0;
+}
+#stats section.stats ul hr.break_line {
+	border: 3px solid #E2E8F0;	
+}
+#stats section.stats ul li h3 {
+	font-size: 32px;
+	font-weight: 600;
+	color: #0F172A;
+	font-family: sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
+#stats section.stats ul li h5 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #0F172A;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+
+/* CATEGORIES SECTION */
+
+#categories {
+	padding-top: 70px;
+}
+#categories section.categories {
+	height: 100%;
+	width: 100%;
+}
+#categories section.categories div.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+#categories section.categories div.head h3 {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
+#categories section.categories div.head a.button {
+	color: #0052cc;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+#categories section.categories div.body ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+#categories section.categories div.body ul li {
+	padding: 24px 7%;
+	border: 1px solid #e2e8f0;
+	border-radius: 16px;
+	box-shadow: 1px 1px 1px 0px rgb(0, 0, 0, 0.2);
+}
+#categories section.categories div.body ul li div.logo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: #e0f2fe;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+#categories section.categories div.body ul li div.logo img {
+	display: block;
+}
+#categories section.categories div.body ul li h3 {
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 10px 0 15px 0;
+	font-family: sans-serif;
+	color: #0F172A;
+}
+#categories section.categories div.body ul li small {
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #334155;
+}
+
+
+/* COURSES SECTION */
+
+#courses section.courses {
+	padding: 70px 0;
+}
+#courses section.courses div.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+#courses section.courses div.head h3 {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
+#courses section.courses div.head a.button {
+	color: #0052cc;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+#courses section.courses div.body ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+#courses section.courses div.body ul a {
+    color: inherit;
+    display: inline-block;
+    width:24%;
+	padding: 15px;
+	border: 1px solid #e2e8f0;
+	border-radius: 16px;
+	box-shadow: 0px 1px 0px 0px rgb(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+#courses section.courses div.body ul a img.bg {
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+#courses section.courses div.body ul a h3 {
+	margin: 15px 0;
+	font-size: 18px;
+	font-weight: 600;
+	word-break: break-word;
+}
+#courses section.courses div.body ul a small {
+	font-size: 14px;
+	font-weight: 400;
+	color: #334155;
+}
+#courses section.courses div.body ul a div.rating {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+	height: 22px;
+}
+#courses section.courses div.body ul a div.rating small {
+	font-size: 14px;
+	font-weight: 400;
+	width: max-content;
+	padding-top: 3px;
+	margin-left: 5px;
+}
+#courses section.courses div.body ul a div.rating img {
+	margin-right: 2px;
+}
+#courses section.courses div.body ul a p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #334155;
+}
+#courses section.courses div.body ul a h3.price {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+/* INSTRUCTORS SECTION */
+
+#instructors {
+	padding-bottom: 75px ;
+}
+#instructors section.instructors {
+	height: 100%;
+}
+#instructors section.instructors div.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+#instructors section.instructors div.head h3 {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
+#instructors section.instructors div.head a.button {
+	color: #0052cc;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+#instructors section.instructors div.body ul {
+	display: flex;
+	justify-content: space-between;
+}
+#instructors section.instructors div.body ul li {
+	padding: 16px;
+	border: 1px solid #e2e8f0;
+	border-radius: 16px;
+	box-shadow: 0px 1px 0px 0px rgb(0, 0, 0, 0.1);
+	width: 19%;
+}
+#instructors section.instructors div.body ul li img.bg {
+	width: 100%;
+}
+#instructors section.instructors div.body ul li h3 {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+#instructors section.instructors div.body ul li small {
+	font-size: 14px;
+	font-weight: 400;
+	display: block;
+	text-align: center;
+	color: #334155;
+}
+#instructors section.instructors div.body ul li hr.underline {
+	margin: 13px 0;
+	border:1px solid #E2E8F0 ;
+}
+#instructors section.instructors div.body ul li div.rating {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#instructors section.instructors div.body ul li div.rating div.left {
+	display: flex;
+	align-items: center;
+}
+#instructors section.instructors div.body ul li div.rating div.left img {
+	margin-right: 4px;
+}
+#instructors section.instructors div.body ul li div.rating div.left small {
+	font-size: 16px;
+	padding-top: 3px ;
+}
+#instructors section.instructors div.body ul li div.rating div.right {
+	padding-top: 3px;
+}
+
+
+/* ABOUT SECTION */
+
+#about {
+	background: #F8FAFC;
+	padding: 70px 0;
+}
+#about section.about {
+	height: 100%;
+}
+#about section.about div.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#about section.about div.head h3 {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	width: 308px;
+	line-height: 34px;
+}
+#about section.about div.head div.right {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	height: 50px;
+}
+#about section.about div.head div.right img {
+	background: #94A3B8;
+	padding: 12px 32px;
+	border-radius: 8px;
+}
+#about section.about div.feedbacks-slider-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+#about section.about div.feedbacks-slider-container div.feedbacks-slider {
+    width: 100%;
+    overflow: hidden;
+}
+#about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track {
+    display: flex;
+    width: 200%;
+}
+#about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide div.feedback-card {
+    padding: 24px;
+	width: 29%;
+	border: 1px solid #e2e8f0;
+	border-radius: 16px;
+	background-color: white;
+	box-shadow: 0px 0px 8px 0px #3B82F61F;
+}
+#about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide div.feedback-card img {
+    width: 48px;
+	height: 48px;
+	margin-bottom: 15px;
+}
+#about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide div.feedback-card p {
+    width: 100%;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+#about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide div.feedback-card div.role {
+    display: flex;
+	height: 65px;
+	align-items: center;
+}
+#about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide div.feedback-card div.role img {
+	border-radius: 50%;
+	display: block;
+	height: 60px;
+	width: 60px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+#about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide div.feedback-card div.role div.name h4 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+#about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide div.feedback-card div.role div.name small {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+/* SPOTLIGHT SECTION */
+
+#spotlight {
+	padding: 60px 0;
+}
+#spotlight section.spotlight {
+	height: 100%;
+}
+#spotlight section.spotlight section.top {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+}
+#spotlight section.spotlight section.top div.left {
+	width: 35%;
+}
+#spotlight section.spotlight section.top div.left img {
+	width: 100%;
+	display: block;
+}
+#spotlight section.spotlight section.top div.right {
+	width: 50%;
+	margin: auto 0;
+}
+#spotlight section.spotlight section.top div.right h3 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 17px;
+}
+#spotlight section.spotlight section.top div.right p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	width: 100%;
+	margin-bottom: 30px;
+	color: #1D2939;
+}
+#spotlight section.spotlight section.top div.right a.button {
+	background: #020617;
+	padding: 15px 30px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 8px;
+	display: inline-flex;
+	align-items: center;
+}
+#spotlight section.spotlight section.bottom {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 50px auto 0 auto;
+}
+#spotlight section.spotlight section.bottom div.left {
+	width: 50%;
+	margin: auto 0;
+}
+#spotlight section.spotlight section.bottom div.left h3 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 17px;
+}
+#spotlight section.spotlight section.bottom div.left p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	width: 100%;
+	margin-bottom: 30px;
+	color: #1D2939;
+}
+#spotlight section.spotlight section.bottom div.left a.button {
+	background: #020617;
+	padding: 15px 30px;
+	color: #fff;
+	border-radius: 8px;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+}
+#spotlight section.spotlight section.bottom div.left a.button img {
+	margin-left: 4px;
+}
+#spotlight section.spotlight section.top div.right a.button img {
+	margin-left: 4px;
+}
+#spotlight section.spotlight section.bottom div.right {
+	width: 40%;
+}
+#spotlight section.spotlight section.bottom div.right img {
+	display: block;
+	width: 100%;
+}
+
+
+/* FOOTER SECTION */
+
+footer {
+	background: #1E293B;
+	color: #fff;
+	padding: 60px 0;
+}
+footer section.footer {
+	display: flex;
+	justify-content: space-between;
+}
+footer section.footer div.left {
+	width: 31%;
+}
+footer section.footer div.left div.logo {
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+}
+footer section.footer div.left div.logo small {
+	font-size: 21px;
+	font-weight: 400;
+}
+footer section.footer div.left p.one {
+	font-size: 14px;
+	line-height: 25px;
+	color: #cbd5e1;
+}
+footer section.footer div.left p.two {
+	font-size: 14px;
+	line-height: 25px;
+	color: #cbd5e1;
+}
+footer section.footer div.right {
+	display: flex;
+	width: 57%;
+	justify-content: space-between;
+}
+footer section.footer div.right ul h4 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 12px;
+	color: #f1f5f9;
+}
+footer section.footer div.right ul li {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 12px;
+	color: #cbd5e1;
+}
+footer section.footer div.right ul li a {
+	color: #cbd5e1;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+footer section.footer div.right ul li a img {
+	display: block;
+	width: 100%;
+}
+footer section.footer div.right ul.last {
+	width: 50%;
+}
+footer section.footer div.right ul.last ul {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+/* SINGLE PAGE HEADER SECTION */
+
+header ul li a {
+	display: block;
+	width: 100%;
+}
+header ul li a img {
+	width: 100%;
+	display: block;
+}
+header ul li.user {
+	background-color: #334155;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+}
+header ul li.user a{
+	color: white;
+	text-align: center;
+}
+
+
+/* COURSE DETAILS SECTION */
+
+section#courseDetail {
+	background-color: #F8FAFC;
+	padding: 50px 0;
+}
+section#courseDetail section.courseDetail {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+section#courseDetail section.courseDetail div.leftContainer {
+	width: 75%;
+}
+section#courseDetail section.courseDetail div.leftContainer div.path{
+	display: flex;
+	gap: 30px;
+	color: #334155;
+	width: max-content;
+}
+section#courseDetail section.courseDetail div.leftContainer div.path small {
+	font-size: 14px;
+	color: #334155;
+}
+section#courseDetail section.courseDetail div.leftContainer div.path small.courseTitle {
+	color: #2563EB;
+	font-size: 14px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.path img {
+	display: block;
+}
+section#courseDetail section.courseDetail div.leftContainer h2 {
+	color: #0F172A;
+	font-weight: 1000;
+	font-size: 40px;
+	margin-top: 30px;
+}
+section#courseDetail section.courseDetail div.leftContainer p {
+	color: #334155;
+	font-size: 16px;
+	line-height: 160%;
+	margin-top: 18px;
+	width: 70%;
+}
+section#courseDetail section.courseDetail div.leftContainer div.ratingDetails{
+	display: flex;
+	align-items: center;
+	margin-top: 18px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.ratingDetails b{
+	font-size: 16px;
+	color: #fec84b;
+	margin-right: 5px;
+	align-content: center;
+}
+section#courseDetail section.courseDetail div.leftContainer div.ratingDetails div.ratingstar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 4px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.ratingDetails div.ratingstar img{
+	display: block;
+	margin-right: 4px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.ratingDetails small{
+	color: #334155;
+	font-size: 14px;
+	padding-bottom: 3px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.instructorDetails {
+	display: flex;
+	align-items: center;
+	margin-top: 24px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.instructorDetails div.instructorImage {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 8px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.instructorDetails div.instructorImage img{
+	display: block;
+	width: 100%;
+}
+section#courseDetail section.courseDetail div.leftContainer div.instructorDetails h6 {
+	font-size: 14px;
+	color: #334155;
+	font-weight: 400;
+}
+section#courseDetail section.courseDetail div.leftContainer div.languageDetails {
+	display: flex;
+	align-items: center;
+	margin-top: 24px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.languageDetails img{
+	display: block;
+	width: 24px;
+	margin-right: 8px;
+	height: 24px;
+}
+section#courseDetail section.courseDetail div.leftContainer div.languageDetails small {
+	font-size: 14px;
+	color: #334155;
+}
+section#courseDetail section.courseDetail div.rightContainer {
+	border: 1px solid #E2E8F0;
+	border-radius: 16px;
+	background-color: white;
+	padding: 18px;
+	box-shadow: 0 0 8px 0 #3B82F61F;
+	width: 25%;
+	position: absolute;
+	right: 0;
+}
+section#courseDetail section.courseDetail div.rightContainer div.instructorBg{
+	width: 100%;
+	height: 220px;
+}
+section#courseDetail section.courseDetail div.rightContainer div.instructorBg img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+section#courseDetail section.courseDetail div.rightContainer div.pricingDetails {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+section#courseDetail section.courseDetail div.rightContainer div.pricingDetails b.offer {
+	font-weight: 600;
+	font-size: 24px;
+	color: #0f172a;
+}
+section#courseDetail section.courseDetail div.rightContainer div.pricingDetails b.pricing {
+	font-weight: 600;
+	font-size: 18px;
+	color: #0f172a;
+	opacity: 20%;
+	text-decoration: line-through;
+}
+section#courseDetail section.courseDetail div.rightContainer div.pricingDetails b.off {
+	font-size: 20px;
+	font-weight: 600;
+	color: #16a34a;
+}
+section#courseDetail section.courseDetail div.rightContainer a.addToCartButton {
+	display: block;
+	text-align: center;
+	background-color: #020617;
+	border-radius: 8px;
+	color: white;
+	padding: 10px 24px;
+	margin-bottom: 20px;
+}
+section#courseDetail section.courseDetail div.rightContainer a.buyNowButton {
+	display: block;
+	text-align: center;
+	background-color: white;
+	border: 1px solid #020617;
+	border-radius: 8px;
+	color: #020617;
+	padding: 10px 24px;
+	margin-bottom: 30px;
+}
+section#courseDetail section.courseDetail div.rightContainer hr {
+	border: 1px solid #E2E8F0;
+	text-align: center;
+	margin-bottom: 30px;
+}
+section#courseDetail section.courseDetail div.rightContainer small.share {
+	color: #0F172A;
+	font-size: 16px;
+	font-weight: 500;
+}
+section#courseDetail section.courseDetail div.rightContainer ul {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	width: 80%;
+}
+
+
+/* COURSE INFO SECTION */
+
+section#courseInfo {
+	padding: 50px 0 0 0;
+}
+section#courseInfo section.courseInfo {
+	width: 70%;
+}
+section#courseInfo section.courseInfo ul.infoCategories {
+	display: flex;
+	gap: 24px;
+}
+section#courseInfo section.courseInfo ul.infoCategories li {
+	border: 1px solid #E2E8F0;
+	border-radius: 8px;
+	padding: 18px 21px;
+}
+section#courseInfo section.courseInfo ul.infoCategories li:first-child {
+	background-color: #EFF6FF;
+}
+section#courseInfo section.courseInfo hr {
+	margin-top: 24px;
+	border: 1px solid #E2E8F0;
+	width: 84%;
+}
+section#courseInfo section.courseInfo h5 {
+	color: #0F172A;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+section#courseInfo section.courseInfo p {
+	margin-top: 15px;
+	color: #334155;
+	line-height: 160%;
+	font-weight: 400;
+	font-size: 16px;
+	width: 84%;
+}
+section#courseInfo section.courseInfo h5.InsName {
+	color: #2563EB;
+	font-weight: 600;
+	font-size: 20px;
+	margin-top: 30px;
+}
+section#courseInfo section.courseInfo h6.InsRole {
+	color: #334155;
+	font-size: 16px;
+	margin-top: 8px;
+	font-weight: 400;
+}
+section#courseInfo section.courseInfo div.InsDetails {
+	display: flex;
+	align-items: center;
+	margin-top: 16px;
+}
+section#courseInfo section.courseInfo div.InsDetails div.InsImage {
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 16px;
+}
+section#courseInfo section.courseInfo div.InsDetails div.InsImage img {
+	display: block;
+	width: 100%;
+}
+section#courseInfo section.courseInfo div.InsDetails ul.InsDetailing {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+section#courseInfo section.courseInfo div.InsDetails ul.InsDetailing li {
+	display: flex;
+	align-items: center;
+	color: #0F172A;
+	font-weight: 400;
+	font-size: 14px;
+}
+section#courseInfo section.courseInfo div.InsDetails ul.InsDetailing li img {
+	width: 18px;
+	height: 18px;
+	margin-right: 6px;
+}
+
+
+/* SYLLABUS SECTION */
+
+section#syllabus {
+	padding-top:30px ;
+}
+section#syllabus section.syllabus h5 {
+	margin-bottom: 22px;
+	color: #0F172A;
+	font-weight: 600;
+	font-size: 20px;
+}
+section#syllabus section.syllabus ul {
+	border: 1px solid #E2E8F0;
+	border-radius: 8px;
+	width: 55%;
+}
+section#syllabus section.syllabus ul li {
+	display: flex;
+	align-items: center;
+	padding: 24px;
+}
+section#syllabus section.syllabus ul li img {
+	margin-right: 12px;
+}
+section#syllabus section.syllabus ul li h6 {
+	color: #0F172A;
+	font-weight: 600;
+	font-size: 18px;
+	flex: 1;
+}
+section#syllabus section.syllabus ul li small.les {
+	color: #334155;
+	font-weight: 400;
+	font-size: 14px;
+	margin-right: 8px;
+}
+section#syllabus section.syllabus ul li small.hour {
+	color: #334155;
+	font-weight: 400;
+	font-size: 14px;
+}
+section#syllabus section.syllabus ul hr {
+	border: 1px solid #E2E8F0;
+}
+section#syllabus section.syllabus hr.last {
+	margin-top: 24px;
+	border: 1px solid #E2E8F0;
+	width: 59%;
+}
+
+
+/* LEARNERS REVIEW SECTION */
+
+section#learnerReviews {
+	padding-top: 30px;
+}
+section#learnerReviews section.learnerReviews h5 {
+	color: #0F172A;
+	font-weight: 600;
+	font-size: 20px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection {
+	width: 20%;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection div.allrating {
+	display: flex;
+	align-items: center;
+	vertical-align: baseline;
+	color: #0F172A;
+	font-weight: 600;
+	font-size: 20px;
+	gap: 8px;
+	margin-bottom: 12px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection div.allrating img {
+	display: block;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection div.allrating small {
+	color: #334155;
+	font-size: 14px;
+	font-weight: 500;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection ul.starLevels li {
+	display: flex;
+	align-items: center;
+	color: #334155;
+	font-weight: 400;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection ul.starLevels li img {
+	display: block;
+	margin-right: 4px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection div.leftSection ul.starLevels li img:last-child {
+	margin-right: 8px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection {
+	width: 80%;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li {
+	display: flex;
+	border: 1px solid #E2E8F0;
+	border-radius: 16px;
+	padding: 24px;
+	margin-bottom: 16px;
+	width: 100%;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li div.userSection {
+	display: flex;
+	width: 80%;
+	align-items: center;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li div.userSection img {
+	display: block;
+	margin-right: 12px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li div.userSection h5 {
+	color: #0F172A;
+	font-size: 18px;
+	font-weight: 600;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection div.topSection {
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection div.topSection img {
+	display: block;
+	margin-right: 8px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection div.topSection small{
+	color: #334155;
+	font-weight: 400;
+	margin-left: 30px;
+	font-size: 14px;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection p {
+	color: #334155;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	width:83%;
+}
+section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection a.ViewMoreReviews {
+	color: #0F172A;
+	font-weight: 500;
+	padding: 10px 24px;
+	border: 1px solid #0F172A;
+	border-radius: 8px;
+	font-size: 14px;
+	margin-top: 10px;
+	display: inline-block;
+	margin-bottom: 24px;
+}
+
+
+/* RESPONSIVE SECTION*/
+
+@media all and (max-width: 1180px) {
+	#categories section.categories div.body ul li {
+		padding: 16px 5%;
+	}
+	#instructors section.instructors div.body ul li div.rating {
+		flex-wrap: wrap;
+	}
+	#instructors section.instructors div.body ul li div.rating div.left {
+		width: 100%;
+		justify-content: center;
+	}
+	#instructors section.instructors div.body ul li div.rating div.right {
+		width: 100%;
+		text-align: center;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li div.userSection {
+		width: 30%;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection p {
+		width: 100%;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection {
+		flex: 1;
+	}
+	section#courseDetail section.courseDetail div.rightContainer ul {
+		width: 100%;
+	}
+}
+
+
+@media all and (max-width: 1080px) {
+	section#courseDetail section.courseDetail div.rightContainer {
+		width: 30%;
+	}
+}
+
+
+@media all and (max-width : 980px) {
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection {
+		width: 76%;
+	}
+	section#courseDetail section.courseDetail div.leftContainer {
+		width: 60%;
+	}
+	section#syllabus section.syllabus ul {
+		width: 100%;
+	}
+	section#courseDetail section.courseDetail div.rightContainer {
+		width: 35%;
+	}
+	section#courseDetail section.courseDetail div.leftContainer div.ratingDetails {
+		flex-wrap: wrap;
+	}
+	section#courseDetail section.courseDetail div.leftContainer div.ratingDetails small{
+		margin-top: 8px;
+	}
+	section#courseInfo section.courseInfo hr {
+		width: 100%;
+	}
+	section#courseInfo section.courseInfo p {
+		width: 100%;
+	}
+	section#syllabus section.syllabus hr.last {
+		width: 100%;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li div.userSection {
+		width: 34%;
+	}
+	#courses section.courses div.body ul {
+		flex-wrap:wrap ;
+		margin-bottom: -16px;
+	}
+	#courses section.courses div.body ul a {
+		width: 46%;
+		margin-bottom: 16px;
+	}
+	#courses section.courses div.body ul a h3 {
+		text-align: center;
+		width: 100%;
+	}
+	#courses section.courses div.body ul a small {
+		width: 100%;
+		text-align: center;
+		display: block;
+	}
+	#courses section.courses div.body ul a div.rating {
+		justify-content: center;
+	}
+	#courses section.courses div.body ul a p {
+		text-align: center;
+	}
+}
+
+
+@media all and (max-width: 840px) {
+	#stats section.stats ul {
+		flex-wrap: wrap;
+		margin-bottom: -14px;
+	}
+	#stats section.stats ul li {
+		width: 48%;
+		border: 2px solid #E2E8F0;
+		padding: 10px 0;
+		margin-bottom: 14px;
+		border-top-left-radius: 12px;
+		border-bottom-right-radius: 12px;
+	}
+	#stats section.stats ul hr.break_line {
+		display: none;
+	}
+	#categories section.categories div.body ul {
+		flex-wrap: wrap;
+		margin-bottom: -14px;
+	}
+	#categories section.categories div.body ul li {
+		width: 48%;
+		margin-bottom: 14px;
+	}
+	#instructors section.instructors div.body ul {
+		flex-wrap: wrap;
+		margin-bottom: -16px;
+		justify-content: space-between;
+	}
+	#instructors section.instructors div.body ul li {
+		width: 44%;
+		margin-bottom: 16px;
+	}
+	#instructors section.instructors div.body ul li:last-child {
+		margin: 0 auto;
+	}
+	#about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide {
+		flex-direction: column;
+		margin-bottom: -16px;
+	}
+	#about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide div.feedback-card {
+		width: 100%;
+		margin-bottom: 16px;
+	}
+	#spotlight section.spotlight section.top {
+		width: 100%;
+	}
+	#spotlight section.spotlight section.bottom {
+		width: 100%;
+	}
+	footer section.footer div.right ul.last ul {
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+	footer section.footer div.right {
+		width: 60%;
+	}
+	footer section.footer div.right ul.last {
+		width: 40%;
+	}
+	section#courseDetail section.courseDetail div.rightContainer {
+		position: relative;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li {
+		flex-wrap: wrap;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li div.userSection {
+		width: 100%;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li div.userSection {
+		margin-bottom: 16px;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection div.leftSection {
+		width: 28%;
+	}
+}
+
+
+@media all and (max-width: 768px) {
+	section#courseDetail section.courseDetail div.rightContainer {
+		display: none;
+	}
+	section#courseDetail section.courseDetail div.leftContainer {
+		width: 100%;
+	}
+	section#courseInfo section.courseInfo ul.infoCategories {
+		gap: 12px;
+	}
+}
+
+
+@media all and (max-width: 640px) {
+	#home section.home div.left a.button {
+		padding: 15px 20px;
+	}
+	footer section.footer {
+		flex-wrap: wrap;
+	}
+	footer section.footer div.left {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	footer section.footer div.right {
+		width: 100%;
+		justify-content: space-between;
+	}
+	footer section.footer div.right ul.last ul {
+		width: 100%;
+		justify-content: space-between;
+	}
+	footer section.footer div.right ul.last ul li {
+		width: 14%;
+	}
+	#spotlight section.spotlight section.top div.right a.button {
+		font-size: 14px;
+	}
+	#spotlight section.spotlight section.bottom div.left a.button {
+		font-size: 14px;
+	}
+	#spotlight section.spotlight section.top div.left {
+		width: 45%;
+	}
+	#spotlight section.spotlight section.bottom div.right {
+		width: 47%;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection {
+		flex-wrap: wrap;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection div.leftSection{
+		width: 100%;
+		margin-bottom: 16px;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection li {
+		width: 100%;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection {
+		width: 100%;
+	}
+	#home section.home div.left h1{
+		width: 100%;
+	}
+	#home section.home div.left {
+		width: 52%;
+	}
+	#home section.home div.left p{
+		width: 100%;
+	}
+}
+
+
+@media all and (max-width: 540px) {
+	#home section.home div.right {
+		display: none;
+	}
+	#home section.home div.left{
+		width: 100%;
+	}
+	#home section.home div.left h1 {
+		text-align: center;
+	}
+	#home section.home div.left p {
+		width: 100%;
+		text-align: center;
+	}
+	#home section.home div.left a.button {
+		margin: 0 auto;
+		display: block;
+		width: max-content;
+	}
+	#courses section.courses div.body ul a {
+		width: 100%;
+		margin-bottom: 12px;
+	}
+	#courses section.courses div.body ul a:last-child {
+		margin-bottom: 0;
+	}
+	#spotlight section.spotlight section.top {
+		flex-wrap: wrap;
+	}
+	#spotlight section.spotlight section.top div.left{
+		width: 65%;
+		margin: 0 auto;
+		margin-bottom: 22px;
+	}
+	#spotlight section.spotlight section.top div.right {
+		width: 100%;
+	}
+	#spotlight section.spotlight section.top div.right h3 {
+		text-align: center;
+	}
+	#spotlight section.spotlight section.top div.right a.button {
+		margin: 0 auto;
+		display: block;
+		width: max-content;
+	}
+	#spotlight section.spotlight section.bottom {
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+	#spotlight section.spotlight section.bottom div.right {
+		width: 65%;
+		margin: 0 auto;
+		margin-bottom: 22px;
+	}
+	#spotlight section.spotlight section.bottom div.left h3{
+		text-align: center;
+		width: 100%;	
+
+	}
+	#spotlight section.spotlight section.bottom div.left{
+		width: 100%;
+	}
+	#spotlight section.spotlight section.bottom div.left p {
+		text-align: center;
+	}
+	#spotlight section.spotlight section.top div.right p{
+		text-align: center;
+	}
+	#spotlight section.spotlight section.bottom div.left a.button {
+		display: block;
+		width: max-content;
+		margin: 0 auto;
+	}
+	footer section.footer div.right ul.last ul li {
+		width: 18%;
+	}
+	section#courseInfo section.courseInfo ul.infoCategories li {
+		padding: 16px 12px;
+	}
+	section#courseDetail section.courseDetail div.leftContainer div.path {
+		gap: 14px;
+	}
+	section#courseInfo section.courseInfo ul.infoCategories{
+		flex-wrap: wrap;
+	}
+	section#courseInfo section.courseInfo {
+		width: 100%;
+	}
+	#home section.home{
+		padding-bottom: 0;
+	}
+}
+
+
+@media all and (max-width: 480px) {
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection p {
+		font-size: 14px;
+	}
+	section#syllabus section.syllabus ul h6 {
+		font-size: 16px;
+	}
+	#about section.about div.head {
+		flex-wrap: wrap;
+	}
+	#about section.about div.head h3{
+		width: 95%;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 22px;
+		text-align: center;
+	}
+	#about section.about div.head div.right{
+		margin:  0 auto;
+	}
+	#about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide div.feedback-card p {
+		font-size: 14px;
+	}
+	section#syllabus section.syllabus ul li h6 {
+		font-size: 14px;
+	}
+}
+
+
+@media all and (max-width: 400px) {
+	#courses section.courses div.body ul a {
+		width: 100%;
+	}
+	#instructors section.instructors div.body ul li div.rating {
+		flex-wrap: nowrap;
+	}
+	#instructors section.instructors div.body ul li div.rating div.left {
+		width: max-content;
+	}
+	#instructors section.instructors div.body ul li div.rating div.right {
+		width: max-content;
+	}
+	footer section.footer div.right {
+		flex-wrap: wrap;
+	}
+	footer section.footer div.right ul {
+		width: 60%;
+		margin: 0 auto;
+		margin-bottom: 16px;
+		text-align: center;
+		border-bottom: 1px solid white;
+	}
+	footer section.footer div.right ul.last {
+		width: 60%;
+		margin: 0 auto;
+		border-bottom: none;
+	}
+	footer section.footer div.right ul.last ul {
+		border-bottom: none;
+	}
+	#categories section.categories div.body ul {
+		flex-wrap: wrap;
+	}
+	#categories section.categories div.body ul li {
+		width: 100%;
+	}
+	section#syllabus section.syllabus ul li small.les {
+		display: none;
+	}
+	section#syllabus section.syllabus ul li small.hour {
+		display: none;
+	}
+	section#courseDetail section.courseDetail div.leftContainer div.path {
+		display: none;
+	}
+	section#courseDetail section.courseDetail div.leftContainer p{
+		width: 100%;
+	}
+	section#courseDetail section.courseDetail div.leftContainer h2{
+		text-align: center;
+		margin-top: 0;
+		font-size: 32px;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection a.ViewMoreReviews {
+		width: max-content;
+		margin: 0 auto;
+		display: block;
+	}
+	#courses section.courses div.head h3 {
+		font-size: 20px;
+	}
+	section#courseDetail section.courseDetail div.leftContainer div.ratingDetails small{
+		font-size: 12px;
+	}
+	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection div.topSection small{
+		font-size: 12px;
+	}
+}
+
+
+@media all and (max-width:340px) {
+	header ul li a.login {
+		padding: 7px;
+		font-size: 14px;
+	}
+	header ul li a.signup{
+		padding: 7px;
+		font-size: 14px;
+	}
+	header ul li {
+		margin-right: 0;
+	}
+	header ul {
+		gap: 8px;
+	}
+	#stats section.stats ul {
+		flex-wrap: wrap;
+	}
+	#stats section.stats ul li {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 12px;
+	}
+}
