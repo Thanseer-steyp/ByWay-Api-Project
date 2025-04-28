@@ -63,18 +63,19 @@ header ul {
 	align-items: center;
 }
 header ul li {
-	list-style-type: none;
 	margin-right: 20px;
 }
-header ul li:last-child {
-	margin-right: 0;
-}
-header ul li a.login {
+header ul li.login, header ul li.logout {
+	list-style-type: none;
 	text-decoration: none;
 	color: #000;
 	background: #fff;
 	padding: 10px;
 	border: 1px solid #334155;
+	cursor: pointer;
+}
+header ul li:last-child {
+	margin-right: 0;
 }
 header ul li a.signup {
 	text-decoration: none;
@@ -1133,6 +1134,42 @@ section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection 
 	margin-top: 10px;
 	display: inline-block;
 	margin-bottom: 24px;
+}
+
+
+/* LOGIN PAGE SECTION */
+
+#loginPage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+#loginPage h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#loginPage form#loginForm {
+	width: 60%;
+	margin: 0 auto;
+	background: white;
+  	padding: 30px;
+  	border-radius: 10px;
+  	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+#loginPage form#loginForm input {
+	width: 100%;
+  	padding: 10px;
+  	margin: 10px 0;
+  	border: 2px solid #ddd;
+  	border-radius: 6px;
+}
+#loginPage form#loginForm p {
+	text-align: center;
+	color: red;
+	margin-top: 8px;
+	font-size: 16px;
 }
 
 

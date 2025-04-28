@@ -4,7 +4,7 @@ import axios from "axios"
 // import ShortArrow from "../assets/icons/short-arrow-right-black.svg"
 import StarIcon from "../assets/icons/star.svg"
 import Language from "../assets/icons/language.svg"
-import instructorBg from "../assets/images/img.jpg"
+// import instructorBg from "../assets/images/img.jpg"
 import FacebookLogo from '../assets/images/fb logo.png'
 import TwitterLogo from '../assets/images/tx logo.png'
 import MicrosoftLogo from '../assets/images/ms logo.png'
