@@ -438,6 +438,7 @@ header ul li a img.cart {
 	background: #94A3B8;
 	padding: 12px 32px;
 	border-radius: 8px;
+	cursor: pointer;
 }
 #about section.about div.feedbacks-slider-container {
     width: 100%;
@@ -462,7 +463,7 @@ header ul li a img.cart {
 }
 #about section.about div.feedbacks-slider-container div.feedbacks-slider div.feedbacks-track div.feedback-slide div.feedback-card {
     padding: 24px;
-	width: 29%;
+	width: 31%;
 	border: 1px solid #e2e8f0;
 	border-radius: 16px;
 	background-color: white;
@@ -1539,6 +1540,9 @@ section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection 
 	section#syllabus section.syllabus ul li h6 {
 		font-size: 14px;
 	}
+	#instructors section.instructors div.body ul li {
+		width: 46%;
+	}
 }
 
 
@@ -1609,6 +1613,9 @@ section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection 
 	}
 	section#learnerReviews section.learnerReviews div.reviewSection ul.rightSection div.contentSection div.topSection small{
 		font-size: 12px;
+	}
+	#instructors section.instructors div.body ul li {
+		width: 100%;
 	}
 }
 
